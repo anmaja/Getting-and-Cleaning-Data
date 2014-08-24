@@ -78,7 +78,7 @@ colnames(x_mean_std)<-gsub("X", "X-axis", fixed=TRUE, colnames(x_mean_std))
 colnames(x_mean_std)<-gsub("Y", "Y-axis", fixed=TRUE, colnames(x_mean_std))
 colnames(x_mean_std)<-gsub("Z", "Z-axis", fixed=TRUE, colnames(x_mean_std))
 # write the resulting dataset to a file
-write.csv(x_mean_std, file="Total_Dataset.csv")
+write.csv(x_mean_std, file="Total_Dataset.txt")
 
 ## -------------------------------------------------------------
 ##5 Create a second, independent tidy data set with the 
@@ -93,7 +93,7 @@ tidy<-dcast(molten, subjects + activity ~ variable, mean)
 rm(molten)
 rm(x_mean_std)
 # write the resulting dataset to a file
-write.csv(tidy, file="averages.csv")
+write.csv(tidy, file="averages.txt")
 # remove unnecessary files
 rm(tidy)
 #setting the working directory back
