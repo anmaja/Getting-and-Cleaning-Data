@@ -11,7 +11,8 @@ The repo contains this file, a script, and a codebook for the file created by th
 * Unzip the data in your working directory, creating the folder 'UCI HAR Dataset' in you working directory.
 * Copy the R script in this repo to your working directory
 * In R, run the script by typing: source("run_analysis.R")
- 
+
+Note: this script requires the R package 'reshape2'. If you do not have this package, please download and install this package before running the script.
 
 ## What does this script do?
 
