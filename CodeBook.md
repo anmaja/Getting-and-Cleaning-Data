@@ -2,7 +2,7 @@
 
 This file describes the contents of the comma separated file, "averages.txt", created by the "run_analysis.R" script. For further information, please refer to the "README" document.
 
-Read this file in R by typing: tidy<-read.csv("UCI HAR Dataset/averages.csv")
+Read this file in R by typing: tidy<-read.csv("UCI HAR Dataset/averages.txt")
 
 This file contains 18 rows and 69 variables. The first columns are: 1) the row name, 2) the subject number, end 3) the activity theat was measured.
 The other, measured variables are:
