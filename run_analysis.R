@@ -18,7 +18,8 @@ colnames(x_joined)<-names$V2
 #remove unnecessary files
 rm(x_test,x_train,names)
 
-## -------------------------------------------------------------
+## ------------------------------------------------------------- ##
+
 ##2 Extract only the measurements on the mean and standard 
 ##  deviation for each measurement. 
 
@@ -38,13 +39,10 @@ x_mean_std <- cbind(x_mean_std,means, std)
 rm(means,std,subjects)
 rm(x_joined)
 
-## -------------------------------------------------------------
+## ------------------------------------------------------------- ##
+
 ##3 Use descriptive activity names to name the activities 
 ##  in the data set
-## gooi test & train y in 1 lange vector, en 
-## merge met de tabel(cbind) met kopje 'activity' erboven
-## cbind als factor met de activity als value of factor
-## maak de factors in de values
 
 # join activities of train & test 
 activity<-c(readLines("train/y_train.txt"),readLines("test/y_test.txt"))
@@ -57,7 +55,8 @@ x_mean_std <- cbind(x_mean_std,activity)
 # remove unnecessary files
 rm(activity,activity_labels)
 
-## -------------------------------------------------------------
+## ------------------------------------------------------------- ##
+
 ##4 Appropriately labels the data set with descriptive 
 ##  variable names. 
 
@@ -80,7 +79,8 @@ colnames(x_mean_std)<-gsub("Z", "Z-axis", fixed=TRUE, colnames(x_mean_std))
 # write the resulting dataset to a file
 write.csv(x_mean_std, file="Total_Dataset.txt")
 
-## -------------------------------------------------------------
+## ------------------------------------------------------------- ##
+
 ##5 Create a second, independent tidy data set with the 
 ##  average of each variable for each activity and each subject.
 
