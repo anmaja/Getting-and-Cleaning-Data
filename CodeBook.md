@@ -29,7 +29,7 @@ Means:
 * Time.Gravity.Acceleration, mean for the X, Y and Z-axis                      
 * Time.Body.Acceleration.Jerk, mean for the X, Y and Z-axis                  
 * Time.Body.Gyroscope, mean for the X, Y and Z-axis                           
-* Time.Body.Gyroscope, mean for the X, Y and Z-axis                       
+* Time.Body.Gyroscope.Jerk, mean for the X, Y and Z-axis                       
 * Time.Body.Acceleration.Magnitude mean                    
 * Time.Gravity.Acceleration.Magnitude mean                     
 * Time.Body.Acceleration.Jerk.Magnitude mean                  
