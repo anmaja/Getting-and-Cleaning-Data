@@ -19,8 +19,8 @@ The repo contains this file, a script, and a codebook for the file created by th
 * combines the data in one big data frame in R
 * extracts the means and standard deviations from the dataframe
 * creates a neat dataset with descriptive names for the measured activities and the measured variables
-* writes two datasets into the unzipped 'UCI HAR Dataset'-folder: Total_Dataset.csv & averages.csv
-* The file Total_Dataset.csv contains the neat dataset containing the means and standard deviations from the raw data
-* the file averages.csv contains a dataset with the average of each variable in Total_Dataset.csv for each activity and each subject
+* writes two datasets into the unzipped 'UCI HAR Dataset'-folder: Total_Dataset.txt & averages.txt
+* The file Total_Dataset.txt contains the neat dataset containing the means and standard deviations from the raw data
+* the file averages.txt contains a dataset with the average of each variable in Total_Dataset.txt for each activity and each subject
 
 
