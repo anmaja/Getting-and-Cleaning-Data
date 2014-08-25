@@ -7,7 +7,7 @@ The repo contains this ReadMe file, a zip file containing raw data, a R-script t
 
 ##How to run the script:
 
-* Download the raw data from this repo
+* Download the raw data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 * Unzip the data in your working directory, creating the folder 'UCI HAR Dataset' in your working directory
 * Copy the R script in this repo to your working directory
 * In R, run the script by typing: source("run_analysis.R")
