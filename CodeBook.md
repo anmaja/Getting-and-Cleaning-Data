@@ -1,6 +1,6 @@
 ##Codebook for 'averages.txt'
 
-This file describes the contents of the comma separated file, "averages.csv", created by the "run_analysis.R" script. For further information, please refer to the "README" document.
+This file describes the contents of the comma separated file, "averages.txt", created by the "run_analysis.R" script. For further information, please refer to the "README" document.
 
 Read this file in R by typing: tidy<-read.csv("UCI HAR Dataset/averages.csv")
 
