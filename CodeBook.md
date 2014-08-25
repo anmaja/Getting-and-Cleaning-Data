@@ -1,6 +1,6 @@
 ##Codebook for 'averages.txt'
 
-This file describes the contents of the comma separated file, "averages.csv", created by the "run_analysis.R" script. For firther information, please refer to the "README" document.
+This file describes the contents of the comma separated file, "averages.csv", created by the "run_analysis.R" script. For further information, please refer to the "README" document.
 
 Read this file in R by typing: tidy<-read.csv("UCI HAR Dataset/averages.csv")
 
@@ -32,15 +32,15 @@ Standard deviations:
 * Time.Body.Acceleration.Jerk, standard deviation for the X, Y and Z-axis      
 * Time.Body.Gyroscope, standard deviation for the X, Y and Z-axis                
 * Time.Body.Gyroscope.Jerk, standard deviation for the X, Y and Z-axis          
-* Time.Body.Acceleration.Magnitude standard.deviation         
-* Time.GravityAcceleration.Magnitude standard.deviation        
-* Time.Body.Acceleration.Jerk.Magnitude standard.deviation     
-* Time.Body.Gyroscope.Magnitude standard.deviation             
-* Time.Body.Gyroscope.Jerk.Magnitude standard.deviation"        
+* Time.Body.Acceleration.Magnitude standard deviation         
+* Time.GravityAcceleration.Magnitude standard deviation        
+* Time.Body.Acceleration.Jerk.Magnitude standard deviation     
+* Time.Body.Gyroscope.Magnitude standard deviation             
+* Time.Body.Gyroscope.Jerk.Magnitude standard deviation"        
 * Frequency.Body.Acceleration, standard deviation for the X, Y and Z-axis         
 * Frequency.Body.Acceleration.Jerk, standard deviation for the X, Y and Z-axis    
 * Frequency.Body.Gyroscope, standard deviation for the X, Y and Z-axis           
-* Frequency.Body.Acceleration.Magnitude standard.deviation     
-* Frequency.Body.Acceleration.Jerk.Magnitude standard.deviation
-* Frequency.Body.Gyroscope.Magnitude standard.deviation        
-* Frequency.Body.Gyroscope.Jerk.Magnitude standard.deviation  
+* Frequency.Body.Acceleration.Magnitude standard deviation     
+* Frequency.Body.Acceleration.Jerk.Magnitude standard deviation
+* Frequency.Body.Gyroscope.Magnitude standard deviation        
+* Frequency.Body.Gyroscope.Jerk.Magnitude standard deviation  
