@@ -1,11 +1,28 @@
 ##Codebook for 'averages.txt'
 
-This file describes the contents of the comma separated file, "averages.txt", created by the "run_analysis.R" script. For further information, please refer to the "README" document.
+This file describes the contents of the table "averages.txt", created by the "run_analysis.R" script. For further information about the script, please refer to the "README" document in this repo. 
 
-Read this file in R by typing: tidy<-read.csv("UCI HAR Dataset/averages.txt")
+The description of the original data on which this script was performed can be found in README.txt in the downloaded folder.
 
-This file contains 18 rows and 69 variables. The first columns are: 1) the row name, 2) the subject number, end 3) the activity theat was measured.
-The other, measured variables are:
+Read the file "averages.txt" in R by using: read.table("UCI HAR Dataset/averages.txt",header=TRUE)
+
+This file contains 180 rows and 68 columns. The first columns are: 1) the subject number, and 2) the activity the subject was performing during the measuring of the data.
+
+Subjects:
+* subject 1 to 30
+
+Activity:
+* walking
+* walking upstairs
+* walking downstairs
+* sitting
+* standing
+* laying
+
+From the original data, only the means and standard deviations were extracted, resulting in 66 variables.
+For the file "averages.txt" the averages of each of the 66 variables was calculated, for each unique combination of subject and activity (resulting in 30*6=180 rows). 
+
+The 66 variables are:
 
 Means:
 * Time.Body.Acceleration, mean for the X, Y and Z-axis                                                   
@@ -14,7 +31,7 @@ Means:
 * Time.Body.Gyroscope, mean for the X, Y and Z-axis                           
 * Time.Body.Gyroscope, mean for the X, Y and Z-axis                       
 * Time.Body.Acceleration.Magnitude mean                    
-* Time.GravityAcceleration.Magnitude mean                     
+* Time.Gravity.Acceleration.Magnitude mean                     
 * Time.Body.Acceleration.Jerk.Magnitude mean                  
 * Time.Body.Gyroscope.Magnitude mean                         
 * Time.Body.Gyroscope.Jerk.Magnitude mean                   
@@ -28,12 +45,12 @@ Means:
 
 Standard deviations:
 * Time.Body.Acceleration, standard deviation for the X, Y and Z-axis              
-* Time.GravityAcceleration, standard deviation for the X, Y and Z-axis          
+* Time.Gravity.Acceleration, standard deviation for the X, Y and Z-axis          
 * Time.Body.Acceleration.Jerk, standard deviation for the X, Y and Z-axis      
 * Time.Body.Gyroscope, standard deviation for the X, Y and Z-axis                
 * Time.Body.Gyroscope.Jerk, standard deviation for the X, Y and Z-axis          
 * Time.Body.Acceleration.Magnitude standard deviation         
-* Time.GravityAcceleration.Magnitude standard deviation        
+* Time.Gravity.Acceleration.Magnitude standard deviation        
 * Time.Body.Acceleration.Jerk.Magnitude standard deviation     
 * Time.Body.Gyroscope.Magnitude standard deviation             
 * Time.Body.Gyroscope.Jerk.Magnitude standard deviation"        
