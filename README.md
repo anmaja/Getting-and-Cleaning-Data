@@ -3,7 +3,7 @@
 
 This repo contains the result of the 'Getting and Cleaning Data' 3rd week course project.
 
-The repo contains this ReadMe file, a zip file containing raw data, a R-script to create an overview of the raw data, a codebook for the summary file created by the script, plus the file itself.
+The repo contains this ReadMe file, a R-script to create an overview of the raw data, a codebook for the summary file created by the script, plus the created summary file 'averages.txt' itself.
 
 ##How to run the script:
 
